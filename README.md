@@ -8,6 +8,5 @@ This script can be launched directly by:
 2. Installing all the libraries from the requirements.txt file
 3. Launching it with all the parameters (see the example in the top of the file).
 
-Docker can be used as an alternative.
-To run it in Docker, pull an image from 
+Docker can be used as an alternative. You should build an image and then run it with a key as a parameter:
 docker run -e API_KEY='A1B2C3...' windyapi:v1 .
